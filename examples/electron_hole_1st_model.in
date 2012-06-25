@@ -1,0 +1,15 @@
+/* First model: No interference, electron goes through hole.
+Fig. 9.5. Pattern extending m9: Electron goes through hole b (soft knowledge) */
+/*
+h = there is interference
+a = the electron goes through hole a
+b = the electron goes through hole b
+*/
+
+h -> *1(a|-a, false) & *1(b|-b, false);
+*1(a|-a, false) & *1(b|-b, false) -> h;
+
+NPT *8(true, a);	/* NPT soft a */
+*(true, b);			/* T soft b */
+*0(a, false);		/* NPT a V */
+NPT *8(b, false); 	/* T b V */

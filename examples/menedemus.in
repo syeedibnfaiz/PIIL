@@ -1,0 +1,8 @@
+/* Fig.9.12 (page 297) Tableau corresponding to Menedemus's answer */
+
+/*
+p = I have been beating my father
+s = I have left off beating my father
+*/
+
+T -p & (-s & *(p, p))

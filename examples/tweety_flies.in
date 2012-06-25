@@ -1,0 +1,15 @@
+/* tweety flies. 
+birds typically flies.
+does tweety fly? 
+using generic ionic operator
+*/
+
+/*
+f = tweety flies
+b = tweety is a bird
+*/
+
+T f						/* tweety flies */
+T b -> *(f, f)			/* if tweety is a bird then
+								if it is acceptable that tweety flies then
+									tweety flies */

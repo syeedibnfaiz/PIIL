@@ -1,0 +1,18 @@
+/* tweety is a penguine. 
+penguines are bird
+birds typically fly unless they are penguines.
+does tweety fly? 
+using butterfly
+*/
+
+/*
+p = tweety is a penguine
+b = tweety is a bird
+f = tweety flies
+*/
+
+T p							/* tweety is a penguine */
+T p -> b					/* if tweety is a penguine then tweety is a bird */
+T b -> *8(f & -p, f)		/* if tweety is a bird then 
+								if it is acceptable that tweety flies and tweety is not a penguine then
+									tweety flies (in a soft sense) */

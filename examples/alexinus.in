@@ -1,0 +1,8 @@
+/* Fig.9.11 (page 297) Tableau corresponding to the alternatives offered by alexinus */
+
+/*
+p = you have been beating your father
+s = you have left off beating your father
+*/
+
+T (s & p) | (-s & *(p, p))

@@ -1,0 +1,15 @@
+/* 9.2.3.2 (page 271) people are normally not diabetic. john is diabetic. is john a person? 
+using diamonsuite operator (potentially acceptable vs. not potentially conceiveable)
+*/
+
+
+/*
+d = John is diabetic
+p = John is a person
+*/
+
+T d								/* John is diabetic*/
+T p -> *0(-d, -d)				/* If John is a person then 
+										if it is potentially acceptable that 
+											John is not diabetic then
+												John is not diabetic (in a soft sense)*/

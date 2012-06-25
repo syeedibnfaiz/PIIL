@@ -1,0 +1,15 @@
+/* Third model: There is interference, electrons can not be seen.
+Fig. 9.6. Pattern extending m0: There is interference. */
+/*
+h = there is interference
+a = the electron goes through hole a
+b = the electron goes through hole b
+*/
+
+h -> *1(a|-a, false) & *1(b|-b, false);
+*1(a|-a, false) & *1(b|-b, false) -> h;
+
+*1(-a, false);	/* NT -a V */
+*1(a, false);	/* NT a V */
+*1(-b, false);	/* NT -b V */
+*1(b, false);	/* NT b V */

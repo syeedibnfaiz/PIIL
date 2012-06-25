@@ -1,0 +1,15 @@
+/* 9.2.3.1 (page 269) Is tweety a bird? 
+using butterfly operator (acceptable vs. non potentially acceptable)
+*/
+
+/*
+b = tweety is a bird
+f = tweety flies
+*/
+
+T -f				/* tweety does not fly */
+T b -> *8(f, f)		/* If tweety is a bird then
+							if it acceptable that tweety flies then
+								tweety flies (in a soft sens) */
+								
+

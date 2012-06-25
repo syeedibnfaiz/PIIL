@@ -1,0 +1,6 @@
+Partial Information Ionic Logic
+===============================
+Syeed Ibn Faiz 2011
+
+PIIL is an implementation of propositional partial information ionic logic(http://www.amazon.com/Partial-Information-Monographs-Theoretical-Computer/dp/0387565833). Given a set of formulas in
+propositional partial information ionic logic it computes model scheme using analytic tableau method.

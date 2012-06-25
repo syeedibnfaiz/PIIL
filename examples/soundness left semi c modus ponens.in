@@ -1,0 +1,6 @@
+/* Fig.8.13 (page 249) soundness of left semi C-modus ponens 
+using butterfly */
+
+T *8(L, a->b) ; 
+PT *8(L, a)
+NT *8(L, b)

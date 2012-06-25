@@ -1,0 +1,19 @@
+/* 9.2.7 (page 276) Nixon is a quaker and a republican.
+Quakers are typically pacifist.
+republicans are typically non-pacifist.
+both pacifist and non-pacifists are politically active.
+is nixon politically active? */
+
+/*
+r = nixon is republican
+q = nixon is a quaker
+p = nixon is a pacifist
+a = nixon is politically active
+*/
+
+T q					
+T r
+T *(p, p)			/* if it is acceptable that p then p (softly) */
+T *(-p, -p)			/* if it is acceptable that not that p then not that p (softly) */
+T p -> *(a, a)		/* if p then if a is acceptable then a(softly) */
+T -p -> *(a, a)		/* if -p then if a is acceptable then a(softly) */
